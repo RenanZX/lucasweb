@@ -1,0 +1,73 @@
+/* musicas.scss */
+
+.collapsible_music {
+    background-color: #9999ff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+
+.active, .collapsible_music:hover {
+    background-color: #4d4dff;
+}
+
+.content_music {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ccccff;
+}
+
+.collapsible_music:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+#list_style {
+	list-style-type: none;
+}
+
+#list_style a:hover {
+    background: #ccccff;
+}
+
+#list_style button {
+    border: none;
+    padding: 8px;
+    width: 50px;
+    border-radius: 12px;
+    vertical-align: top;
+    background: #4d4dff;
+    color: #fff;
+}
+
+#list_style progress[value] {
+    width: 250px;
+    height: 25px;
+    background: #4d4dff;
+    border-radius: 5px;
+}
+
+#list_style progress[value]::-webkit-progress-bar {
+  border-radius: 5px;
+  background-color: #e6e6ff;
+}
+
+#list_style progress[value]::-webkit-progress-value {
+  border-radius: 5px;
+  background-color: #4d4dff;
+}

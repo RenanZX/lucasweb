@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<table id="gerenciamento">
+  <thead>
+    <tr>
+      <th colspan="4"><h1>Fotos</h1></th>
+    </tr>
+  </thead>
+
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th colspan="3">Opções</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fotos.each do |foto| %>
+      <tr>
+        <td><%= foto.id %></td>
+        <td><%= link_to 'Mostrar', foto %></td>
+        <td><%= link_to 'Editar', edit_foto_path(foto) %></td>
+        <td><%= link_to 'Deletar', foto, method: :delete, data: { confirm: 'Tem Certeza?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= button_to "Adicionar Foto", new_foto_path, :method => :get %>

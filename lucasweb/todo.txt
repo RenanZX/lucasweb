@@ -1,0 +1,6 @@
+# TODO
+
+- Editar Pagina HomePage
+- Incluir Foto para cada conjunto de músicas
+- Incluir uma página para cada álbum
+- Criar Testes BDD se possível

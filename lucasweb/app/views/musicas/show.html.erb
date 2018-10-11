@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @musica.titulo %>
+</p>
+<p>
+  <strong>Musicas:</strong>
+  <% @musica.audios.each do |music|%>
+   <%= audio_tag url_for(music), controls: :true%>
+  <% end %>
+</p>
+
+<%= link_to 'Mostrar', @musica %> |
+<%= link_to 'Voltar', action: "admin" %>

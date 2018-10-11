@@ -1,0 +1,36 @@
+// Place all the styles related to the autenticacao controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#formulariologin {
+	border-radius: 5px;
+    background-color: #d2d2d2;
+    padding: 20px;
+}
+
+#formulariologin input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formulariologin input[type=submit] {
+	width: 100%;
+	border: #001a33 1px solid;
+    color: #fff;
+    padding: 5px 5px;
+	background-color: #001a33;
+	border-radius: 5px;
+	transition: 0.4s;
+	font-size:15px;
+	font-weight:600;
+}
+
+#formulariologin input[type=submit]:hover {
+	border: #0077b3 1px solid;
+	background-color: #0077b3;
+}

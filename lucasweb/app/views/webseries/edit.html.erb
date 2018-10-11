@@ -1,0 +1,8 @@
+<h1>Editar Webserie</h1>
+
+<% @post = "Atualizar Webserie"%>
+
+<%= render 'form', webseries: @webseries %>
+
+<%= link_to 'Mostrar', @webseries %> |
+<%= link_to 'Voltar', action: "admin" %>

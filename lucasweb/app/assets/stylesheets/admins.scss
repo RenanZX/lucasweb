@@ -1,0 +1,94 @@
+// Place all the styles related to the admins controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#corpo_admin {
+	margin: 0;
+	background: #f2f2f2;
+}
+
+.main_admin a {
+	text-decoration: none;
+	color: #001a33;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.main_admin a:hover {
+    text-decoration: none;
+	color: #000d1a;
+	background-color: #f2f2f2;
+	font-weight: 1000;
+}
+
+.main_admin input[type='submit'] {
+    border: #001a33 1px solid;
+    color: #fff;
+    padding: 5px 5px;
+	background-color: #001a33;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.main_admin input[type='submit']:hover {
+    border: #0077b3 1px solid;
+	background-color: #0077b3;
+}
+
+#formulario {
+	border-radius: 5px;
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+#formulario input[type=text],textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#formulario input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;    
+}
+
+#formulario input[type='submit'] {
+	width: 100%;
+}
+
+#gerenciamento a:hover {
+	background-color: #ddd;
+}
+
+#gerenciamento {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#gerenciamento td, #gerenciamento th {
+    border: 1.2px solid #000;
+    padding: 8px;
+}
+
+#gerenciamento tr:nth-child(even){background-color: #f2f2f2;}
+
+#gerenciamento tr:hover {background-color: #ddd;}
+
+#gerenciamento th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #001a33;
+    color: white;
+}

@@ -1,0 +1,24 @@
+<div class="top-container">
+    <% if action_name == "main"%>
+       <%= image_tag "fundosite2.png", id:"topo"%>
+    <% else %>
+       <%= image_tag "fundosite.png",id:"topo"%>
+    <% end %>
+</div>
+<div class="menu" id="Cabecalho">
+<ul>
+<a href="/"><li><%= image_tag "logotipo.png", id: "logo"%></li></a>
+<li><%= link_to "Principal","/homepage"%></li>
+<li><%= link_to "Sobre","/sobre"%></li>
+<li><%= link_to "Música","/musicas"%></li>
+<li><%= link_to "Poemas","/poemas"%></li>
+<li><%= link_to "Textos Diversos","/textos"%></li>
+<li><%= link_to "WebSéries","/webseries"%></li>
+<li><%= link_to "Fotos","/fotos"%></li>
+<li><%= link_to "Contato","/contato"%></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+	screenload();
+</script>

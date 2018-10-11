@@ -1,0 +1,11 @@
+<h4>POEMAS</h4>
+<hr id="line" />
+<div class="row">
+  <% @poemas.each do |poema|%>
+    <div class="column">
+      <%= poema.titulo %>
+      <%= strip_tags poema.corpo %>
+      <%=link_to "Ler Mais", action: "show", id: texto.id%>
+    </div>
+  <% end %>
+</div>

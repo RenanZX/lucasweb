@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lucasweb</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+  </head>
+    <%if controller_name != "admins" && controller_name != "autenticacao" && cookies[:login].nil?%>
+      <body id="corpo">
+        <%= render "layouts/top" %>
+        <div class="main">
+        <%= yield %>
+        </div>
+        <%= render "layouts/footer" %>
+      </body>
+    <% elsif action_name != "login"%>
+      <body id="corpo_admin">
+        <%= render "layouts/top_admin"%>
+        <div class="main_admin">
+        <%= yield %>
+        </div>
+      </body>
+    <% else%>
+      <body id="corpo_admin">
+        <div>
+          <%= yield%>
+        </div>
+      </body>
+    <% end %>
+</html>

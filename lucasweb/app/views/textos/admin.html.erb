@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<table id="gerenciamento">
+  <thead>
+    <tr>
+      <th colspan="4"><h1>Textos</h1></th>
+    </tr>
+  </thead>
+
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th colspan="3">Õpções</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @textos.each do |texto| %>
+      <tr>
+        <td><%= texto.title %></td>
+        <td><%= link_to 'Mostrar', texto %></td>
+        <td><%= link_to 'Editar', edit_texto_path(texto) %></td>
+        <td><%= link_to 'Deletar', texto, method: :delete, data: { confirm: 'Tem Certeza?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+
+<%= button_to "Adicionar Texto", new_texto_path, :method => :get %>

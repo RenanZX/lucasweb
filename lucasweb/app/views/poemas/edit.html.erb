@@ -1,0 +1,8 @@
+<h1>Editar Poema</h1>
+
+<% @post = "Atualizar Poema"%>
+
+<%= render 'form', poema: @poema %>
+
+<%= link_to 'Mostrar', @poema %> |
+<%= link_to 'Voltar', action: "admin" %>

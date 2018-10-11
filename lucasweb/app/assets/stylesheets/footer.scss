@@ -1,0 +1,53 @@
+/* footer.scss */
+
+.foot {
+    padding: 10px 16px;
+	width:100%;
+	background: #9999ff;
+}
+
+.foot p{
+    text-align: center;
+    font-size: 15px;
+	color: white;
+}
+
+.foot a:hover{
+	background: #9999ff;
+}
+
+#share-icons {
+  margin-left:38%;
+}
+
+#share-icons img {
+  width:auto;
+  height:auto;
+  margin-right: 30px;
+}
+
+#face {
+  max-width: 35px;
+  max-height:35px;
+}
+
+#ytb {
+  margin-bottom: 5px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#g {
+  max-width: 33px;
+  max-height:33px;
+}
+
+#inst {
+  max-width: 35px;
+  max-height:35px;
+}
+
+#whats {
+  max-width: 35px;
+  max-height:35px;
+}

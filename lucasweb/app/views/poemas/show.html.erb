@@ -1,0 +1,5 @@
+<% if !cookies[:login].nil? %>
+<%= render "poemas/show_adm"%>
+<% else %>
+<%= render "poemas/show_user"%>
+<% end %>

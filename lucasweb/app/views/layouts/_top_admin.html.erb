@@ -1,0 +1,20 @@
+<div id="SideMenu" class="sidenav">
+<p>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <%= link_to controller: "musicas", action: "admin" do %><%= image_tag "music.png"%> gerenciar musicas<% end %>
+  <%= link_to controller:"fotos", action: "admin" do %><%= image_tag "photo.png"%> gerenciar fotos<% end %>
+  <%= link_to controller: "poemas", action: "admin" do %><%= image_tag "poem.png"%> gerenciar poemas<% end %>
+  <%= link_to controller: "textos", action: "admin" do %><%= image_tag "book.png"%> gerenciar textos<% end %>
+  <%= link_to controller:"webseries", action: "admin" do %><%= image_tag "series.png"%> gerenciar webseries<% end %>
+  <%= link_to Admin.first do %>
+    <%= image_tag "page.png"%> Mostrar Paginas
+  <% end %>
+  <%= link_to edit_admin_path(Admin.first) do %>
+    <%= image_tag "page.png"%> Editar Paginas
+  <% end %>
+  <%= link_to controller: "autenticacao", action: "logout" do %><%= image_tag "logout.png"%> Sair<% end %>
+</p>
+</div>
+
+<span id="adm_span" onclick="openNav()">&#9776; Administrar
+</span>

@@ -1,0 +1,646 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"butt",
+				"buttonstop"
+			],
+			[
+				"current",
+				"currentTime"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"main",
+				"main_admin"
+			],
+			[
+				"styles",
+				"stylesheet_link_tag"
+			],
+			[
+				"media",
+				"mediaPlayer"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"submit",
+				"submit_up"
+			],
+			[
+				"get",
+				"getElementbyId"
+			],
+			[
+				"file_",
+				"file_path"
+			],
+			[
+				"new",
+				"new_attributes"
+			],
+			[
+				"user",
+				"users_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/osboxes/Documents/Postgres_cmd",
+			"settings":
+			{
+				"buffer_size": 1044,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "#postgres comands"
+			}
+		},
+		{
+			"file": "lucasweb/todo.txt",
+			"settings":
+			{
+				"buffer_size": 145,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "# TODO"
+			}
+		},
+		{
+			"file": "lucasweb/app/views/musicas/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 965,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lucasweb/app/assets/javascripts/musicas.js",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lucasweb/app/assets/stylesheets/musicas.scss",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lucasweb/app/assets/stylesheets/application.css.scss",
+			"settings":
+			{
+				"buffer_size": 1036,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lucasweb/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 980,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/osboxes/Documents/LucasSite/lucasweb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/helpers",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/layouts",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas",
+		"/home/osboxes/Documents/LucasSite/lucasweb/config",
+		"/home/osboxes/Documents/LucasSite/lucasweb/public"
+	],
+	"file_history":
+	[
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/textos_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/fotos_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/textos.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/fotos.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/_show_user.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/_show_adm.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/_show_user.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/helpers/textos_helper.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/config/routes.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/_show_adm.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/layouts/_top.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/menu.js",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/main.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/webseries_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/musicas_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/poemas_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/homepage.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/musicas.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/layouts/application.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/layouts/_footer.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/contato.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/about.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/admins.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/admins_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/home_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/autenticacao/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/autenticacao.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/menu.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/layouts/_top_admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/autenticacao/login.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/admins/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/edit.html.erb",
+		"/home/osboxes/Documents/Athene/app/views/autenticacao/_login_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/autenticacao_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/admins/admlogin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/footer.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/application.css.scss",
+		"/home/osboxes/Documents/Athene/config/routes.rb",
+		"/home/osboxes/Documents/Athene/app/views/autenticacao/login.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/new.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/new.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/new.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/new.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/_form_edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/new.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/textos/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/fotos/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/admins/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/admins/edit.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/_form.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/webseries/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/poemas/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/fileuploadstyle.js",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/fileuploadstyle.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/home.coffee",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/admins/show.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/musicas/index.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/admin.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/musicas.js",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/application.js",
+		"/home/osboxes/Documents/LucasSite/lucasweb/config/application.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/Gemfile",
+		"/home/osboxes/Downloads/startbootstrap-scrolling-nav-gh-pages/index.html",
+		"/home/osboxes/Documents/LucasSite/lucasweb/public/vendor/bootstrap/css/bootstrap.css",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/scrolling-nav.css",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/aplication.scss",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/models/foto.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/controllers/application_controller.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/direct_uploads.css",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/models/musica.rb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/javascripts/direct_uploads.js",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/assets/stylesheets/application.css",
+		"/direct_uploads.css",
+		"/home/osboxes/Documents/LucasSite/lucasweb/config/locales/ptbr.yml",
+		"/home/osboxes/Documents/LucasSite/lucasweb/config/locales/en.yml",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/inicio.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/home.html.erb",
+		"/home/osboxes/Documents/LucasSite/lucasweb/app/views/home/bio.html.erb",
+		"/home/osboxes/Documents/Athene/README.md",
+		"/home/osboxes/Documents/Athene/app/assets/javascripts/videos.js",
+		"/home/osboxes/Documents/Athene/app/models/user.rb",
+		"/home/osboxes/Documents/Athene/app/models/video.rb",
+		"/home/osboxes/Documents/Athene/app/controllers/users_controller.rb",
+		"/home/osboxes/Documents/Athene/db/migrate/20180523201754_create_videos.rb",
+		"/home/osboxes/Documents/Athene/config/application.rb",
+		"/home/osboxes/Documents/Athene/features/videos/envio_de_videos.feature",
+		"/home/osboxes/Documents/Athene/app/views/video_posts/stream_test.html.erb",
+		"/home/osboxes/Documents/Athene/features/step_definitions/videos/envio_de_videos_steps.rb",
+		"/home/osboxes/Documents/Athene/app/views/videos/_video.json.jbuilder",
+		"/home/osboxes/Documents/Athene/app/assets/config/manifest.js",
+		"/home/osboxes/Documents/Athene/app/views/videos/index.html.erb",
+		"/home/osboxes/Documents/Athene/app/assets/stylesheets/videos.scss",
+		"/home/osboxes/Documents/Athene/config/initializers/assets.rb",
+		"/home/osboxes/Documents/Athene/app/assets/javascripts/application.js",
+		"/home/osboxes/Documents/Athene/app/assets/javascripts/foundation.coffee",
+		"/home/osboxes/Documents/Athene/app/views/users/show.html.erb",
+		"/home/osboxes/Documents/Athene/app/assets/javascripts/videos.coffee",
+		"/home/osboxes/Documents/Athene/features/step_definitions/autenticacao/cadastro_steps.rb",
+		"/home/osboxes/Documents/Athene/app/controllers/videos_controller.rb",
+		"/home/osboxes/Documents/Athene/app/views/videos/_form.html.erb",
+		"/home/osboxes/Documents/Athene/features/autenticacao/cadastro.feature",
+		"/home/osboxes/Documents/Athene/features/video/envio_de_videos.feature",
+		"/home/osboxes/Documents/Athene/app/views/videos/new.html.erb",
+		"/home/osboxes/Documents/Athene/app/views/users/new.html.erb",
+		"/home/osboxes/Documents/Athene/app/views/videos/show.html.erb",
+		"/home/osboxes/Documents/Athene/app/uploaders/video_file_uploader.rb",
+		"/home/osboxes/Documents/Athene/features/autenticacao/login.feature",
+		"/home/osboxes/Documents/Athene/features/step_definitions/autenticacao/login_steps.rb",
+		"/home/osboxes/Documents/Athene/app/views/post_coment/post_coment.html.erb",
+		"/home/osboxes/Documents/Athene/app/models/comment.rb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			"/home/osboxes/Documents/LucasSite/lucasweb/public/vendor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\",",
+			"343A40",
+			"main",
+			"#0000ff",
+			"navbar",
+			"343A40",
+			"navbar",
+			"mediaP",
+			"puts",
+			"foundation.coofee",
+			"arq_video",
+			"arq_vide",
+			"video_params",
+			"@user",
+			"create user",
+			":senha"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/osboxes/Documents/Postgres_cmd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#postgres comands",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lucasweb/todo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# TODO",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lucasweb/app/views/musicas/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lucasweb/app/assets/javascripts/musicas.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1028,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lucasweb/app/assets/stylesheets/musicas.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1051,
+								1051
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lucasweb/app/assets/stylesheets/application.css.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lucasweb/app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 201.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 32.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

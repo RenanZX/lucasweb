@@ -1,0 +1,27 @@
+<%= form_with(model: webseries, id: "formulario",local: true) do |form| %>
+  <% if webseries.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(webseries.errors.count, "error") %> prohibited this webseries from being saved:</h2>
+
+      <ul>
+      <% webseries.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :titulo %>
+    <%= form.text_field :titulo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :playlist %>
+    <%= form.text_area :playlist %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit @post %>
+  </div>
+<% end %>

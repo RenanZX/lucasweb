@@ -1,0 +1,8 @@
+<h1>Editar Foto</h1>
+
+<% @post = "Atualizar Foto"%>
+
+<%= render 'form', foto: @foto %>
+
+<%= link_to 'Mostrar', @foto %> |
+<%= link_to 'Voltar', action: "admin" %>

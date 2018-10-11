@@ -1,0 +1,6 @@
+<h4>WEBSÉRIES</h4>
+<hr id="line" />
+<% @webseries.each do |webserie|%>
+  <h5><%= webserie.titulo %></h5><br>
+  <%= webserie.playlist.html_safe %>
+<% end %>

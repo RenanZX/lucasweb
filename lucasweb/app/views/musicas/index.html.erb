@@ -1,0 +1,33 @@
+<h4>MÚSICA</h4>
+<hr id="line" />
+
+<% @musicas.each do |musica|%>
+  <h5><%= musica.titulo%></h5>
+  <button class="collapsible_music">Faixas</button>
+  <div class="content_music">
+    <ul id="list_style">
+    <% musica.audios.each do |audio|%>
+      <li>
+      <p>
+        <%= audio.filename.to_s.gsub('.mp3','')%>
+      </p>
+      <p>
+        <%= audio_tag url_for(audio), id:"player"%>
+        <div>
+          <p><progress value="0" max="1" id="hp_range"></progress></p>
+          <button id="btnplay">&#9654;</button>  
+          <button id="btnstop">&#9606;</button>
+          <button onclick="document.getElementById('player').volume += 0.1">+ </button> 
+          <button onclick="document.getElementById('player').volume -= 0.1">- </button>
+        </div>
+        <%= link_to "Download", rails_blob_path(audio, disposition: "attachment")%>
+      </p>
+      </li>
+    <% end%>
+    </ul>
+  </div>
+<% end %>
+
+<script type="text/javascript">
+  colapse();
+</script>

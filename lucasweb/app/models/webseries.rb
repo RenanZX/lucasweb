@@ -1,0 +1,2 @@
+class Webseries < ApplicationRecord
+end

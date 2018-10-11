@@ -1,0 +1,36 @@
+<%= form_with(model: musica, local: true, multipart: true, id:"formulario") do |form| %>
+  <% if musica.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(musica.errors.count, "error") %> prohibited this musica from being saved:</h2>
+
+      <ul>
+      <% musica.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :titulo %>
+    <%= form.text_field :titulo %>
+  </div>
+
+  <h4>musicas enviadas</h4>
+
+  <% @musica.audios.each do |music|%>
+   <p>
+   <%= music.filename %>
+   </p>
+   <%= link_to "remover", action: 'remove_audio', id: @musica.id, music_name: music.filename%>
+  <% end%>
+
+  <div class="field">
+    <%= form.label "Selecione um(1) ou mais arquivos de Audio" %>
+    <%= form.file_field :audios, multiple: true, direct_upload: true %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "Atualizar Álbum"%>
+  </div>
+<% end %>

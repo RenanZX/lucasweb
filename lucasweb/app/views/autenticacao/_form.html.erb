@@ -1,0 +1,16 @@
+<div id="formulariologin">
+<%= form_tag action: "login" do%>
+<p>
+<%= label_tag "Usuário"%>
+<%= text_field_tag :nome%>
+</p>
+
+<p>
+<%= label_tag "Senha"%>
+<%= password_field_tag :password%>
+</p>
+
+<%= submit_tag "Login" , :name => "Acesso" %>
+
+<% end %>
+</div>

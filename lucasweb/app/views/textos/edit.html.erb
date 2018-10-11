@@ -1,0 +1,8 @@
+<h1>Editar Texto</h1>
+
+<% @post = "Atualizar Texto"%>
+
+<%= render 'form', texto: @texto %>
+
+<%= link_to 'Mostrar', @texto %> |
+<%= link_to 'Voltar', action: "admin" %>

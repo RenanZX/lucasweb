@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<table id="gerenciamento">
+  <thead>
+    <tr>
+      <th colspan="4"><h1>Webseries</h1></th>
+    </tr>
+  </thead>
+
+  <thead>
+    <tr>
+      <th>Titulo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @webseries.each do |webseries| %>
+      <tr>
+        <td><%= webseries.titulo %></td>
+        <td><%= link_to 'Mostrar', webseries %></td>
+        <td><%= link_to 'Editar', edit_webseries_path(webseries) %></td>
+        <td><%= link_to 'Deletar', webseries, method: :delete, data: { confirm: 'Tem Certeza?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= button_to "Adicionar Webserie", new_webseries_path, :method => :get %>

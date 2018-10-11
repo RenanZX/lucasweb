@@ -1,0 +1,5 @@
+<% if !cookies[:login].nil? %>
+<%= render "textos/show_adm"%>
+<% else %>
+<%= render "textos/show_user"%>
+<% end %>

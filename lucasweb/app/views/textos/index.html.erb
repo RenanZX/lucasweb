@@ -1,0 +1,11 @@
+<h4>TEXTOS DIVERSOS</h4>
+<hr id="line" />
+<div class="row">
+  <% @textos.each do |texto| %>
+    <div class="column">
+      <h4><%= texto.title %></h4>  
+      <p><%= strip_tags texto.body %></p>
+      <%=link_to "Ler Mais", action: "show", id: texto.id%>
+    </div>
+  <% end %>
+</div>

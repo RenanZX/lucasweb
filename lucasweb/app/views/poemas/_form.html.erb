@@ -1,0 +1,27 @@
+<%= form_with(model: poema, local: true, id: "formulario") do |form| %>
+  <% if poema.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(poema.errors.count, "error") %> prohibited this poema from being saved:</h2>
+
+      <ul>
+      <% poema.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :titulo %>
+    <%= form.text_field :titulo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :corpo %>
+    <%= form.text_area :corpo %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit @post%>
+  </div>
+<% end %>
