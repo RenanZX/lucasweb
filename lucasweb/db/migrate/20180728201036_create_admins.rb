@@ -8,5 +8,9 @@ class CreateAdmins < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
+
+    if !Admin.any?
+      Admin.create(inicial: '<h1>Bem Vindo</h1>', homepage: '', about: '', contato: '')
+    end
   end
 end
