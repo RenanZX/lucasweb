@@ -3,6 +3,7 @@
 
 <% @musicas.each do |musica|%>
   <h5><%= musica.titulo%></h5>
+  <%= image_tag musica.image, with: '200px',height: '200px'%>
   <button class="collapsible_music">Faixas</button>
   <div class="content_music">
     <ul id="list_style">

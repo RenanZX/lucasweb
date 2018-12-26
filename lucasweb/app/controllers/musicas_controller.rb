@@ -88,6 +88,6 @@ class MusicasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def musica_params
-      params.require(:musica).permit(:titulo, audios: [])
+      params.require(:musica).permit(:titulo, :image, audios: [])
     end
 end
